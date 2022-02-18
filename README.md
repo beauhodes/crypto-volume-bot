@@ -38,6 +38,6 @@ If you want to detect new Twitter follows as well, make sure you have looked int
 All defaults can be changed directly in the files.
 
 By default, the bot scans for volume spikes every 30 minutes. It scans Binance perps using the tickers defined in worker.py, and alerts are triggered according to the algorithm defined in bot.py (determineAlert function). Default tickers scanned are:
-'FTM', 'AVAX', 'NEAR', 'RUNE', 'DOT', 'AXS', 'ENJ', 'LINK','MATIC', 'FTT', 'SRM', 'MKR', 'XTZ', 'ATOM', 'CHZ', 'ALGO','1INCH', 'MANA', 'LRC', 'YFI', 'GRT', 'SNX', 'SUSHI', 'LUNA', 'SOL'
+'FTM', 'AVAX', 'NEAR', 'RUNE', 'DOT', 'AXS', 'ENJ', 'LINK', 'MATIC', 'FTT', 'SRM', 'MKR', 'XTZ', 'ATOM', 'CHZ', 'ALGO', '1INCH', 'MANA', 'LRC', 'YFI', 'GRT', 'SNX', 'SUSHI', 'LUNA', 'SOL'
 
 If you run the Twitter part as well, it will scan for the users you request (must edit the code yourself for this, and beware rate limits) every time it scans for volume as well.
