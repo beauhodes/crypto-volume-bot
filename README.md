@@ -15,7 +15,7 @@ It scans for volume spikes on specific tokens (exchange/tickers can be edited in
 
 ## Layout
 All files are commented to explain any of this further, but here's a broad overview:
-- .env.template - Template for environment variables
+- env.template - Template for environment variables
 - requirements.txt - List of requirements (install with pip or preferred package manager)
 - bot.py - Entry point. Initializes things, begins the scanning loop, and takes care of sending out alerts
 - worker.py - Takes care of scanning for volume spikes, including making calls to the exchange and running the logic to determine what a spike is
