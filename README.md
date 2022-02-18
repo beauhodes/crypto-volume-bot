@@ -20,6 +20,7 @@ All files are commented to explain any of this further, but here's a broad overv
 - bot.py - Entry point. Initializes things, begins the scanning loop, and takes care of sending out alerts
 - worker.py - Takes care of scanning for volume spikes, including making calls to the exchange and running the logic to determine what a spike is
 - followed.py - Takes care of scanning for when specific Twitter users follow someone new
+- test.py - Was using this for tests, feel free to use for whatever
 
 ## Running
 Requirements:
