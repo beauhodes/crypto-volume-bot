@@ -2,7 +2,6 @@ import os
 import discord
 from discord.ext import tasks, commands
 from worker import detect
-from followed import prepare, scanTwitters
 from dotenv import load_dotenv
 import argparse
 
@@ -91,6 +90,7 @@ async def myLoop():
 
 # Run the bot
 if(args.t):
+    from followed import prepare, scanTwitters
     channel2_id = os.getenv('DISCORD_CHANNELID_TWIT')
     prepare()
 client.run(discord_token)
