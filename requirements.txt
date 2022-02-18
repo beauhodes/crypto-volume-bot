@@ -1,0 +1,8 @@
+ccxt
+tweepy
+pprint
+time
+threading
+python-dotenv
+datetime
+numpy
