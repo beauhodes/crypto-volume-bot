@@ -1,6 +1,6 @@
 # crypto-volume-bot
 
-Note 0: workerUpdated.py has been uploaded and contains (a) an edited callsPerDay variable that only puts tokens on "cooldown" for 4 hours rather than a full-day, and (b) an updated trigger alert algo that only sends a maximum of 2 alerts (can be edited via the maxAlerts variable) per "loop" based on the magnitude of the jump.
+Note 0: workerUpdated.py has been uploaded and contains (a) an edited callsPerDay variable that only puts tokens on "cooldown" for 4 hours rather than a full-day, and (b) an updated trigger alert algo that only sends a maximum of 2 alerts (can be edited via the maxAlerts variable) per "loop" based on the magnitude of the jump. To use this, in bot.py import detect from workerUpdated rather than worker ("from workerUpdated import detect").
 
 Note 1: This is not complete (though it does work). There's a to do list:
 - Rework algo that triggers alerts (only display top volume breakouts) - UPDATE: Done in workerUpdated.py
