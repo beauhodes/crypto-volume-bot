@@ -1,7 +1,9 @@
 # crypto-volume-bot
 
+Note 0: workerUpdated.py has been uploaded and contains (a) an edited callsPerDay parameter that only puts tokens on "cooldown" for 4 hours rather than a full-day, and (b) an updated trigger alert algo that only sends a maximum of 3 alerts per "loop" based on the magnitude of the jump.
+
 Note 1: This is not complete (though it does work). There's a to do list:
-- Rework algo that triggers alerts (only display top volume breakouts)
+- Rework algo that triggers alerts (only display top volume breakouts) - UPDATE: Done in workerUpdated.py
 - Add support for dex-only tokens
 - Add other alert methods vs just Discord (directly to command line, telegram, whatever else)
 - Error handling
